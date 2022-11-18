@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Hi, You Are invited!</title>
+    <title>Hi!</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -24,25 +24,48 @@
         <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
         <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
     </div>
-    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">Click Me!</a>
+    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">ABOUT</a>
+    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>
     <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
-        <h2>Hi, You Are Invited!</h2>
+        <h1>1tapz.</h1>
+        <h2>Software Developer / Musician / Chef</h2>
         <div id="menu">
-            <a onclick="showcontact()">Click Me!!</a>
+            <a onclick="showabout()">about</a>
+            <a onclick="showcontact()">contact</a>
         </div>
+        <table>
+                <tr>
+                    <td class="animated zoomIn" style="animation-delay:2.2s;"><a href="https://pastebin.com/raw/XpsjGfmm" class="social"><i class="fab fa-facebook"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.4s;"><a href="https://pastebin.com/raw/XpsjGfmm" class="social"><i class="fab fa-twitter"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.6s;"><a href="https://instagram.com/1tapz" class="social"><i class="fab fa-instagram"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.8s;"><a href="https://pastebin.com/raw/XpsjGfmm" class="social"><i class="fab fa-telegram"></i></a></td>
+                </tr>
+        </table>
     </div>
+    <div id="about_container" class="container">
+            <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+            <h1>about.</h1>
+            <section>
+                <h2>about me</h2>
+                <p>
+                    My name is Novan Ramadhan.
+                </p>
+                <p>
+                    Just human from indonesian.
+                </p>
+            </section>
+            <section>
+                <h2>skills</h2>
+                <p>
+                    i can do eveything ;)
+                </p>
+            </section>
         </div>
           <div id="contact_container" class="container">
             <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
-            <h1>Wedding Invitation</h1>
+            <h1>contact.</h1>
             <section>
-                <h2></h2>
-				<h3>Joining the lives of </h3>
-				<h2>Kelvin Mustalim & Rizka Amelia</h2>
-				<h2>------------------------------------------</h2>
-				<h3>Monday, 28 November 2022 at 07.00 AM - end</h3>
-				<h3>Jl.Perintis Kemerdekaan SMK GEMA GAWITA</h3>
-				<h3>
+                <h2>email: sampahnovan10@gmail.com</h2>
                 </p>
             </section>
         </div>

@@ -1,361 +1,138 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="utf-8" />
-    <meta name="theme-color" content="#BC8887" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Undangan Praktek Wedding</title>
-
-    <meta property="og:title" content="Undangan Praktek Wedding XII TB2 - Senin, 28 November 2022">
-    <meta property="og:description" content="Undangan Praktek Wedding - Senin, 28 November 2022">
-    <meta property="og:locale" content="id_ID" />
-    <meta property="og:image" content="">
-    <meta property="og:url" content="">
-    <meta name="twitter:card" content="summary_large_image">
-    <!-- Bulma Version 0.8.x-->
-    <link rel="stylesheet" href="https://unpkg.com/bulma@0.8.0/css/bulma.min.css" />
-    <link rel="stylesheet" href="https://unpkg.com/bulma-tooltip@0.1.5/dist/bulma-tooltip.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/menikah.css" />
-    <link rel="stylesheet" type="text/css" href="css/jquery.countdown.css" />
-    <script
-      src="https://kit.fontawesome.com/2828f7885a.js"
-      integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG"
-      crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="js/jquery.coundown.js"></script>
-    <link rel="icon" type="image/png" href="image/favicon.png" />
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23064379-20"></script>
-    <!-- Begin Script for Countdown -->
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-23064379-20');
-    </script>
-    <!-- Begin Script for Countdown -->
-
-    <!-- Github Button -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
   </head>
-
   <body>
-    <!-- Begin Preloader -->
-    <div class="preloader-wrapper">
-      <div class="preloader">
-        <img src="image/favicon.png" alt="Flower" />
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="https://cdn.discordapp.com/attachments/1202263420913844225/1235187670909583440/Colourful_Blue_Collage_Lent_Fish_Fridays_Instagram_Post_1.png?ex=663375a9&is=66322429&hm=17df66c2f0568a8d602b07f8d0f9d77e87b4bf6be1cc11994cf7e3ede094b3f5&"
+            class="food-munch-logo"
+          />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            </a>
+            <a class="nav-link" href="#exploreMenuSection" id="navItem2">Explore Menu</a>
+            <a class="nav-link" href="#deliveryPaymentSection" id="navItem3">Kontak Kami</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="banner-section-bg-container d-flex justify-content-center flex-column">
+      <div class="text-center">
+        <h1 class="banner-heading mb-3">Get Delicious Food Anytime</h1>
+        <p class="banner-caption mb-4">Eat Smart & Healthy</p>
+        <button class="custom-button">View Menu</button>
+        <button class="custom-outline-button">Order Now</button>
       </div>
     </div>
-    <!-- End Preloader-->
-    <!-- Begin Header -->
-    <div class="header-wrapper" id="home">
-      <!-- Begin Hero -->
-      <section class="hero is-large">
-        <!-- Begin Mobile Nav -->
-        <nav class="navbar is-transparent is-hidden-desktop">
-          <!-- Begin Burger Menu -->
-          <div class="navbar-brand is-fixed-top">
-            <div class="navbar-burger burger" data-target="mobile-nav">
-              <span></span>
-              <span></span>
-              <span></span>
+    <div class="explore-menu-section pt-5 pb-5" id="exploreMenuSection">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="menu-section-heading">Explore Menu</h1>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="shadow menu-item-card p-3 mb-3">
+              <img
+                src="https://cdn.discordapp.com/attachments/1202263420913844225/1235133654154612756/P51111-080634_1_2.jpg?ex=6633435a&is=6631f1da&hm=bf301f3c6dd58fc3b197f42eb314cdb8af65add2516032ad2d564f8552be9d4f&"
+                class="menu-item-image w-100"
+              />
+              <h1 class="menu-card-title">Manggleng Singkong</h1>
+              <p class="delivery-and-payment-section-description">
+                Manggleng singkong dengan berbagai rasa, manggleng karamel coklat,  manggleng pedas, manggleng asin.
+                Untuk harga mulai dari Rp8.000-an
+                </svg>
+                </p>
+                
+                <li><a href="https://drive.google.com/file/d/1VLIYn6y1XraoJ8BsXyJ02_m8-0cnYCrV/view?usp=drivesdk" target="_blank"> <span>LIST HARGA KERIPIK</span></a></li>
+              </a>
             </div>
           </div>
-          <!-- End Burger Menu -->
-          <div id="mobile-nav" class="navbar-menu">
-            <div class="navbar-end">
-              <div class="navbar-item">
-                <a class="navbar-item" href="#Waktu">
-                  Waktu
-                </a>
-              </div>
-              <div class="navbar-item">
-                <a class="navbar-item" href="#lokasi">
-                  Lokasi
-                </a>
-              </div>
-              
-              <div class="navbar-item">
-                <a class="navbar-item" href="#tentang-sherly-daeng">
-                  Tentang XII TB2
-                </a>
-              </div>
-              <div class="navbar-item">
-                <a class="navbar-item" href="#rsvp">
-                  RSVP
-                </a>
-              </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="menu-item-card shadow p-3 mb-3">
+              <img
+                src="https://cdn.discordapp.com/attachments/1202263420913844225/1235131346368729128/dbfa85ea5d92c17e4611767385b377d4_1.jpeg?ex=66334134&is=6631efb4&hm=2ac2cb5c2cf9081197f1d2b11d5a8141ecd825ddcc05b37169c23eb6f552b2aa&"
+                class="menu-item-image w-100"
+              />
+              <h1 class="menu-card-title">Keripik Pisang</h1>
+              <p class="delivery-and-payment-section-description">
+                Kami menyediakan keripik pisang dengan berbagai macam rasa, yaitu rasa manis dan asin gurih
+                </svg>
+                <li><a href="https://drive.google.com/file/d/1VLIYn6y1XraoJ8BsXyJ02_m8-0cnYCrV/view?usp=drivesdk" target="_blank"> <span>LIST HARGA KERIPIK</span></a></li>
+              </a>
             </div>
           </div>
-        </nav>
-        <!-- End Mobile Nav -->
-        <!-- Begin Hero Content-->
-        <div class="hero-body">
-          <div class="container has-text-centered">
-            <h1 class="subtitle">Undangan Praktek Wedding</h1>
-            <h2 class="subtitle">XII TB2</h2>
-            <h4 class="subtitle tempatwaktu">
-              
-                Senin, 28 November 2022 
-                </br>
-                RUANG 10 - SMK GEMA GAWITA
-                </br>
-                Kota Tangerang
-              
-            </h4>
-          </div>
-          <!-- Start Countdown -->       
-          <div>
-            <ul id="hitungmundur" >
-              <li><span class="days">00</span><p class="days_text">Hari</p></li>
-              <li class="separator">:</li>
-              <li><span class="hours">00</span><p class="hours_text">Jam</p></li>
-              <li class="separator">:</li>
-              <li><span class="minutes">00</span><p class="minutes_text">Menit</p></li>
-              <li class="separator">:</li>
-              <li><span class="seconds">00</span><p class="seconds_text">Detik</p></li>
-            </ul>
-            <div class="spasi">
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="menu-item-card shadow p-3 mb-3">
+              <img
+                src="https://cdn.discordapp.com/attachments/1202263420913844225/1235132040110805034/how-to-make-popcorn-10-square_1.jpg?ex=663341da&is=6631f05a&hm=2306719601326292dcbd2f1571e49083a4f37a983e866b5a42089b12a7e1def6&"
+                class="menu-item-image w-100"
+              />
+              <h1 class="menu-card-title">PopCorn Manis/Asin</h1>
+              <p class="delivery-and-payment-section-description">
+                Selain keripik pisang dan mangleng, kami juga menyediakan makanan Pop corn dengan rasa Caramel dan Coklat
+                </svg>
+                <li><a href="https://drive.google.com/file/d/1VLIYn6y1XraoJ8BsXyJ02_m8-0cnYCrV/view?usp=drivesdk" target="_blank"> <span>LIST HARGA POPCORN</span></a></li>
+              </a>
             </div>
-            <script type="text/javascript">
-              var now = new Date();
-              var day = now.getDate();
-              var month = now.getMonth() + 1;
-              var year = now.getFullYear() + 1;
-          
-              var nextyear = month + '/' + day + '/' + year + ' 07:07:07';
-              var harih = '11/28/2022 09:00:00';
-
-              $('#hitungmundur').countdown({
-                date: harih, // TODO Date format: 07/27/2017 17:00:00
-                offset: +7, // TODO Your Timezone Offset
-                day: 'Hari',
-                days: 'Hari'
-              }, function () {
-                alert('Acara Sedang Dimulai / Acara Telah Selesai!');
-              });
-            </script>  
           </div>
-          <!-- End Countdown -->
-        </div>
-        <!-- End Hero Content-->
-        <!-- Begin Hero Menu -->
-        <div class="hero-foot ">
-          <div class="hero-foot--wrapper">
-            <div class="columns">
-              <div class="column is-12 hero-menu-desktop has-text-centered">
-                <ul>
-                  <li class="is-active">
-                    <a href="#home">Home</a>
-                  </li>
-                  <li>
-                    <a href="#Waktu">Waktu</a>
-                  </li>
-                  <li>
-                    <a href="#lokasi">Lokasi</a>
-                  </li>
-
-                  <li>
-                    <a href="#rsvp">RSVP</a>
-                  </li>
-                </ul>
-              </div>
+                </svg>
+              </a>
             </div>
           </div>
         </div>
-        <!-- End Hero Menu -->
-      </section>
-      <!-- End Hero -->
+      </div>
     </div>
-    <!-- End Header -->
-
-    <!-- Begin Main Content -->
-    <div class="main-content">
-    <!-- Begin regular-section-->
-     <section class="section-light no-padding-top regular-section has-text-centered has-vertically-aligned-content" id="regular-section">
-        
-        <div data-aos="fade-up" data-aos-easing="linear">
-          <img src="image/bismillah.png" class="bismillah has-text-centered" alt="Bismillahirrahmaanirrahiim">
-        </div>
-
-        <p class="bodytext" data-aos="fade-up" data-aos-easing="linear">
-          Assalamu'alaikum Warahmatullahi Wabarakatuh.
-          <br />
-          Dengan memohon rahmat dan ridha Allah swt, 
-          <br />
-          kami bermaksud mengundang Bapak Guru/Ibu Guru/Saudara/Saudari pada acara ujian praktek kami
-		  <br />
-            
-          
-        </p>
-
-        <span class="space40px"></span>
-        <span class="space40px"></span>
-
-        <div data-aos="fade-up" data-aos-easing="linear">
-          <div class="subtitle" >
-            UJIAN PRAKTEK WEDDING
-          </div>
-          <div class="ampersand">TB 2</div>
-          <div class="subtitle">
-           PCKI & PPBK
-          </div>
-           
-        </div>
-        <span class="space40px"></span>
-        <div data-aos="fade-up" data-aos-easing="linear">
-          <img src="image/divider-leaves.png" class="divider has-text-centered" alt="~~~">
-        </div>
-        <span class="space40px"></span>
-        <span class="space40px"></span>
-      </section>
-      <!-- End regular-section-->    
-      
-      <!-- Begin Waktu Section -->
-      <section class="section-dark" id="Waktu">
-        <div class="container">
-
-          <div class="column is-12 regular-section" data-aos="fade-up" data-aos-easing="linear">
-            <h1 class="title has-text-centered section-title">Waktu</h1>
-          </div>
-          <div class="columns is-multiline" data-aos="fade-up" data-aos-easing="linear">
-            <div
-              class="column is-4 has-vertically-aligned-content">
-            
-              <p class="is-larger has-text-centered">
-                  <div class="waktu tanggal-hari has-text-centered">Senin</div> 
-                  <div class="waktu tanggal-angka has-text-centered">28</div>
-                  <div class="waktu tanggal-bulan has-text-centered">November 2022</div>
-              </p>
-            
+    <div class="delivery-and-payment-section pt-5 pb-5" id="deliveryPaymentSection">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-5 order-1 order-md-2">
+            <div class="text-center">
+              <img
+                src=""
+                class="delivery-and-payment-section-img"
+              />
             </div>
-            <div class="column is-4 has-vertically-aligned-content">
-             <h1 class="waktu is-larger has-text-centered">
-                Peserta hadir:
-                <br>
-                <strong>27</strong>
-              </h1>
+          </div>
+          <div class="col-12 col-md-7 order-2 order-md-1">
+            <h1 class="delivery-and-payment-section-heading">
+              Kontak Kami
+            </h1>
+            <p class="delivery-and-payment-section-description">
+             Hubungi kami jika anda ingin memesan dan jika ada pertanyaan mengenai produk kami dengan menggunakan kontak dibawah
+            </p>
+            <li><a href="https://api.whatsapp.com/send?phone=62822-1014-1235&text=Halo%20,%20saya%20ingin%20bertanya%20tentang%20keripik%20yang%20anda%20jual.&source=&data=" target="_blank"> <span>Hubungi kami</span></a></li>
             </div>
-
-            <div class="column is-4 has-vertically-aligned-content">
-              
-              <h1 class="waktu is-larger has-text-centered">
-                Mulai Acara:
-                <br>
-                <strong>08.00 WIB - Selesai</strong>
-              </h1>
-              
-              
-            </div>
-      </section>
-      <!-- End Waktu Content -->
-
-      <!-- Begin Lokasi Section -->
-      <section class="section-darker" id="lokasi" >
-        <div class="container">
-          <div class="column is-12 regular-section" data-aos="fade-up" data-aos-easing="linear">
-            <h1 class="title has-text-centered section-title">Lokasi</h1>
-            <p class="tempat is-larger has-text-centered">
-              <strong>RUANG 10 - SMK GEMA GAWITA</strong>
-              <br>
-              Jl. Perintis Kemerdekaan
-              <br>
-              Kota Tangerang, Banten
-              <br>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-section pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <img
+              src="https://cdn.discordapp.com/attachments/1202263420913844225/1235187670909583440/Colourful_Blue_Collage_Lent_Fish_Fridays_Instagram_Post_1.png?ex=663375a9&is=66322429&hm=17df66c2f0568a8d602b07f8d0f9d77e87b4bf6be1cc11994cf7e3ede094b3f5&"
+              class="food-munch-logo"
+            />
+            <h1 class="footer-section-mail-id">MANGGLENG LETTA.</h1>
+            <p class="footer-section-address">
+              Parung, Indonesia.
             </p>
           </div>
-      </section>
-      <!-- End Lokasi Content -->
-
-      <!-- Begin RSVP Content -->
-      <section class="section-dark contact" id="rsvp">
-        <div class="container">
-          <div class="columns is-multiline">          
-            <div class="column is-12 prolog">
-              <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">Konfirmasi Kehadiran</h1>
-            </div>
-            <div class="column is-12 prolog has-text-centered" data-aos="fade-up" data-aos-easing="linear">
-              <p class="h2 subtitle">
-                Merupakan suatu kehormatan dan kebahagiaan bagi kami
-                <br>
-                apabila Bapak Guru/Ibu Guru/Saudara/Saudari berkenan hadir
-                memberikan doa serta dukungan kepada kami.
-                <br>
-                <br>
-                Jika bisa hadir kami tunggu konfirmasinya, 
-                <br>
-                <br>
-                <br>
-                Jika tidak memungkinkan untuk hadir di praktek wedding kami,tidak mengapa,
-                <br> 
-                semoga bisa berjumpa di lain kesempatan
-                <br>
-                <br>
-                Stay safe & jaga kesehatan ya :)
-				<br>
-				<br>
-				WHATSAPP JIKA ADA PERTANYAAN
-                </p>
-				
-              <a href="https://api.whatsapp.com/send?phone=6281281711231&text=Halo%20,%20saya%20ingin%20bertanya%20soal%20acara%20praktek%20wedding&source=&data=" class="button btn-whatsapp" target="_blank" data-aos="zoom-in">
-                <i class="fab fa-whatsapp"></i>
-                &nbsp;&nbsp;Novan
-              </a >
-              <div class="space40px"></div>
-
-              <div class="space40px"></div>
-              <div data-aos="fade-up" data-aos-easing="linear">
-                <img src="image/divider-leaves.png" class="divider has-text-centered" alt="~~~">
-              </div>
-              <div class="space40px"></div>
-              <p class="h2 subtitle" data-aos="fade-up" data-aos-easing="linear">
-                Terima kasih kepada,
-                <br>
-                <a class="instagram" href="https://n0v4n.my.id/" target="_blank" alt="website Novan">
-                  <i class="fab fa-chrome"></i> novan - Publisher
-                </a>
-                <br>
-				<a class="instagram":" href="https://github.com/daengdoang" target="_blank" alt="Github Daeng">
-                  <i class="fab fa-github"></i> daengdoang - Pembuat Web Undangan
-                </a>
-              </p>
-
-            </div>
- 
-         </div>
         </div>
-      </section>
-      <!-- End RSVP Content -->
-    </div>
-    <!-- End Main Content -->
-
-    <!-- Begin Footer -->
-<div class="footer">
-      <div class="container">
-        <a href="https://bulma.io" class="has-vertically-align">
-          <img src="https://bulma.io/images/made-with-bulma.png" alt="Made with Bulma">
-        </a>
-        <a href="https://www.netlify.com">
-          <img src="https://www.netlify.com/img/global/badges/netlify-color-bg.svg" alt="Deploy with Netlify"/>
-        </a>
-		<a href="https://pages.github.com/">
-		  <img src="https://research.computing.yale.edu/sites/default/files/event-images/github-pages.png" alt="Powered by Github"/>
       </div>
     </div>
-    <!-- End Footer -->
-
-    <!-- Scripts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="js/menikah.js"></script>
-    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
-    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
-    <script>
-      AOS.init({
-        easing: "ease-out",
-        duration: 800,
-      });
-    </script>
   </body>
 </html>
